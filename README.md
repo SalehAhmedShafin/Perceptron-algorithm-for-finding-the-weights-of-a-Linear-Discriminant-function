@@ -5,19 +5,21 @@ To accomplish the tasks you've described, we need to follow these steps:
 
 Read and Plot Data:
 
-a. Load data from "train.txt".
-b. Plot samples with different colors and markers for each class.
+1. Load data from "train.txt".
+2. Plot samples with different colors and markers for each class.
 Generate High Dimensional Points:
 
-a. Apply the formula to generate high dimensional points using a second-order polynomial discriminant function.
-b. Normalize one class to ensure that the dimensions are consistent. y=[ x1^2 x2^2 x1*x2 x1 x2 1 ]
+1. Apply the formula to generate high dimensional points using a second-order polynomial discriminant function.
+2. Normalize one class to ensure that the dimensions are consistent. y=[ x1^2 x2^2 x1*x2 x1 x2 1 ]
+   
 Implement Perceptron Algorithm:
 
-a. Implement the Perceptron algorithm for both one-at-a-time and batch learning.
-b. Loop through different initial weights and learning rates.
-c. Count the number of iterations until convergence.
+1. Implement the Perceptron algorithm for both one-at-a-time and batch learning.
+2. Loop through different initial weights and learning rates.
+3. Count the number of iterations until convergence.
+   
 Create Table and Bar Chart:
 
-a. Record the learning rate, number of iterations, and other parameters for each case.
-b. Create a table displaying this information.
-c. Generate a bar chart visualizing the data in the table.
+1. Record the learning rate, number of iterations, and other parameters for each case.
+2. Create a table displaying this information.
+3. Generate a bar chart visualizing the data in the table.
